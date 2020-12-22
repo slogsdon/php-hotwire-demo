@@ -1,0 +1,12 @@
+{
+    "name": "slogsdon/hotwire-helpers",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Shane Logsdon",
+            "email": "shane@shanelogsdon.com"
+        }
+    ],
+    "require": {}
+}
