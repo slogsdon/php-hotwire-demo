@@ -8,5 +8,13 @@
             "email": "shane@shanelogsdon.com"
         }
     ],
+    "autoload": {
+      "files": [
+        "src/Turbo/functions.php"
+      ],
+      "psr-4": {
+        "Slogsdon\\Hotwire\\": "src/"
+      }
+    },
     "require": {}
 }

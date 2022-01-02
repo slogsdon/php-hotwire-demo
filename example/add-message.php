@@ -1,8 +1,8 @@
 <?php
 
-if ($_SERVER['HTTP_ACCEPT'] && stristr($_SERVER['HTTP_ACCEPT'], 'turbo-stream') !== false) {
-  header('Content-Type: text/html; turbo-stream');
-}
+require '../vendor/autoload.php';
+
+\Slogsdon\Hotwire\Turbo\respondAsTurboStream();
 
 $messageCount = false;
 
